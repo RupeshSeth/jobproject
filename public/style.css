@@ -20,7 +20,7 @@
 .Dashboard {
     padding: var(--mainPadding);
     background-color: var(--lightGrey);
-    height: 100%
+    min-height: 82vh
 }
 
 .row {
