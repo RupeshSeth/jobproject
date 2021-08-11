@@ -12,7 +12,7 @@ button, that changes status of the order to the next state automatically on clic
 ## How to Install the Test Project TASK
 ```
 Download the Test ProjectTask in your system using git clone command or download zip file provided in this repo 
-(https://github.com/RupeshSeth/testProjectTask.git)
+(https://github.com/RupeshSeth/jobproject)
 ```
 ## Project setup
 ```
