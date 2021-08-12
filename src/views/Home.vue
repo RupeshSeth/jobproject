@@ -60,7 +60,14 @@ private headers: any = [
     { text: 'BODY', align: 'start', sortable: true, value: 'body' },
     ];
 
+get isLogin() {
+    return localStorage.getItem('login');
+}
+
 private mounted() {
+    if(this.isLogin  !==  'success') {
+        this.$router.push({ name: 'Auth.Login' });
+    }
     this.getPost();
 }
 
